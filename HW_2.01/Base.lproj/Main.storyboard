@@ -23,9 +23,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELD-qg-TiP" userLabel="Orange">
                                 <rect key="frame" x="16" y="79" width="361" height="361"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="361" id="4TR-Uo-w1z"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,6 +33,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ELD-qg-TiP" secondAttribute="trailing" constant="16" id="4Y0-sf-0gX"/>
                             <constraint firstItem="ELD-qg-TiP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="VJu-5u-ZbK"/>
                             <constraint firstItem="Iz2-Ps-USR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-20" id="dsq-29-3IA"/>
+                            <constraint firstItem="ELD-qg-TiP" firstAttribute="height" secondItem="Iz2-Ps-USR" secondAttribute="height" multiplier="1.06805" id="eel-pN-wmZ"/>
                             <constraint firstItem="ELD-qg-TiP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="sPj-jR-ZAP"/>
                             <constraint firstItem="Iz2-Ps-USR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="z9j-NS-izv"/>
                         </constraints>
